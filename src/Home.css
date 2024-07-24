@@ -1,0 +1,126 @@
+.container{
+    width:100%;
+    display:flex;
+    
+}
+.row{
+    width: 100%;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    overflow-x: hidden;
+    padding: 5rem 0;
+}
+.row .imgWrapper{
+    overflow: hidden;
+}
+.row .imgWrapper:hover {
+    border: 0.5px solid rgb(88, 88, 173)
+    
+}
+.row .imgWrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+.row .imgWrapper:hover img{
+    transform: scale(1.25);
+   
+}
+.row .contentWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+}
+.row .contentWrapper span.textWarpper{
+    display: block;
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:15px;
+    margin-bottom: 20px;
+}
+.row .contentWrapper span.textWarpper span{
+    display: inline-block; 
+    background-color: grey;
+    width: 70px;
+    height: 5px;
+}
+.row .contentWrapper h2{
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom:20px;
+}
+.row .contentWrapper p{
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 25px;
+}
+.row .contentWrapper a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: blue;
+    color:white;
+    padding: 15px 40px;
+    letter-spacing: 1px;
+    user-select: none;
+    margin: 5px;
+}
+.row .icons a{
+    width: 50px;
+    background-color: white;
+    color: blue;
+    font-size: 35px;
+    align-items: flex-start;
+    
+    padding-left:0.5px;
+}
+
+
+
+/* text animation*/
+
+
+.wrapper{
+    display: inline-flex;
+}
+.wrapper .static-txt{
+    color: black;
+    font-size: 20px;
+    
+}
+.wrapper .dynamic-txt{
+    margin-left: 15px;
+
+}
+.dynamic-txt li{
+    color:blue;
+    list-style: none;
+    font-size:20px;
+    
+}
+
+
+
+@media (max-width: 768px){
+
+    .row{
+        grid-template-columns: 1fr;
+        grid-gap:50px;
+        padding: 5%;
+    }
+    .row .contentWrapper{
+        padding-left: 10px;
+    }
+
+}
+
+
+
