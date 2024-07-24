@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Ravi/static/css/main.b001bbe5.css",
+    "main.js": "/Ravi/static/js/main.ed1866a3.js",
+    "static/js/453.1407b060.chunk.js": "/Ravi/static/js/453.1407b060.chunk.js",
+    "static/media/ravi3.png": "/Ravi/static/media/ravi3.5d4855eb2dd073c3a577.png",
+    "index.html": "/Ravi/index.html",
+    "main.b001bbe5.css.map": "/Ravi/static/css/main.b001bbe5.css.map",
+    "main.ed1866a3.js.map": "/Ravi/static/js/main.ed1866a3.js.map",
+    "453.1407b060.chunk.js.map": "/Ravi/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b001bbe5.css",
+    "static/js/main.ed1866a3.js"
+  ]
+}
