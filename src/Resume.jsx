@@ -1,5 +1,6 @@
 import React from "react";
 import "./Resume.css";
+import Skills from "./Skills";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap, faSchool } from "@fortawesome/free-solid-svg-icons";
 
@@ -105,6 +106,7 @@ function Resume() {
             </div>
           </div>
         </section>
+        <Skills />
       </body>
     </>
   );
