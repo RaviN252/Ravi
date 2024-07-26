@@ -7,6 +7,7 @@ import { faGraduationCap, faSchool } from "@fortawesome/free-solid-svg-icons";
 function Resume() {
   return (
     <>
+    
       <body>
         <section className="timeline" id="timeline">
           <div className="containers left-containeres">

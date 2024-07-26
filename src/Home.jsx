@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import Resume from "./Resume";
 
 import Proj from "./Proj";
+import Nav from "./Nav";
 import Ravi from "./Assets/ravi3.png";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -74,7 +75,7 @@ function Home() {
                 MY CV
               </a>
 
-              <div className="icons">
+              <div className="icons" id="icons">
                 <a href="https://www.linkedin.com/in/ravi-mern-reactjs-nodejs/">
                   <FontAwesomeIcon icon={faLinkedin} />
                 </a>

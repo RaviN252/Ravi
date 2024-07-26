@@ -18,9 +18,10 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
     <BrowserRouter>
-      <Size />
+      {/* <Size /> */}
 
       <Nav />
+      {/* <Home /> */}
 
       <Routes>
         <Route path="/" element={<Home />}></Route>

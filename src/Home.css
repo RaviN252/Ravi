@@ -79,6 +79,7 @@
     color: blue;
     font-size: 35px;
     align-items: flex-start;
+    position: relative;
     
     padding-left:0.5px;
 }
