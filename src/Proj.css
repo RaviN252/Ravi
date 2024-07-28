@@ -1,0 +1,23 @@
+.projcon{
+    display: flex;
+    flex-direction: column;
+   
+}
+.items{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 3%;
+    
+    
+}
+.item{
+    border: 1px solid black;
+    margin: 2%;
+    text-align: center;
+    padding: 1%;
+}
+.projcon .items .item .imgWrapper{
+    max-width: 300px;
+}

@@ -21,14 +21,13 @@ root.render(
       {/* <Size /> */}
 
       <Nav />
-      {/* <Home /> */}
 
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/About" element={<About />}></Route>
-        <Route path="/Contact" element={<Contact />}></Route>
         <Route path="/Resume" element={<Resume />}></Route>
         <Route path="/Proj" element={<Proj />}></Route>
+        <Route path="/Contact" element={<Contact />}></Route>
       </Routes>
     </BrowserRouter>
   </>

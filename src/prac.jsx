@@ -1,5 +1,5 @@
 import React from "react";
-import ravi from "./Assets/ravi3.png";
+
 import "./prac.css";
 
 function Prac() {

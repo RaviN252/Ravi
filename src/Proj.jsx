@@ -1,21 +1,46 @@
 import React from "react";
+import "./Proj.css";
+import Ravi from "./Assets/proj.png";
 
 function Proj() {
   return (
     <>
-      <h1>PROJECT</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui minus, ea
-        illo odit natus eum non dolor cum, blanditiis reprehenderit alias ipsam
-        magnam molestias reiciendis excepturi magni beatae quia consectetur!
-        Ipsum repellendus deserunt quo mollitia fugiat rem, ducimus modi
-        aspernatur nihil similique. Cupiditate nisi aperiam quisquam dicta ullam
-        porro asperiores fuga. Reprehenderit suscipit illum pariatur fugit at
-        provident, ab distinctio. Fuga pariatur inventore minima adipisci at
-        enim deleniti vero voluptatum laborum, minus aliquid animi. Quo totam
-        esse unde saepe sit est quos consequuntur, fugit reprehenderit,
-        voluptates repellendus, distinctio explicabo veritatis!
-      </p>
+      <div className="container projcon">
+        <h1 className="text-center">PROJECT</h1>
+        <div className="items">
+          <div className="item">
+            <img src={Ravi} alt="" className="imgWrapper" />
+            <h2>Crud</h2>
+            <p>Curd Operation Using Js Dom</p>
+            <button>click </button>
+          </div>
+          <div className="item">
+            <img src={Ravi} alt="" className="imgWrapper" />
+            <h2>Weathet App</h2>
+            <button>click </button>
+          </div>
+          <div className="item">
+            <img src={Ravi} alt="" className="imgWrapper" />
+            <h2>Netflix App</h2>
+            <button>click </button>
+          </div>
+          <div className="item">
+            <img src={Ravi} alt="" className="imgWrapper" />
+            <h2>Web Site</h2>
+            <button>click </button>
+          </div>
+          <div className="item">
+            <img src={Ravi} alt="" className="imgWrapper" />
+            <h2>projrct 1</h2>
+            <button>click </button>
+          </div>
+          <div className="item">
+            <img src={Ravi} alt="" className="imgWrapper" />
+            <h2>projrct 1</h2>
+            <button>click </button>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

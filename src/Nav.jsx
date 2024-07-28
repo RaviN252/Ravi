@@ -32,11 +32,10 @@ function Nav() {
           </li>
 
           <li>
-            <NavLink to="/Contact">Conatct</NavLink>
-          </li>
-
-          <li>
             <NavLink to="/Proj">Project</NavLink>
+          </li>
+          <li>
+            <NavLink to="/Contact">Conatct</NavLink>
           </li>
         </ul>
       </nav>

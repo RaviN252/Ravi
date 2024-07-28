@@ -1,0 +1,45 @@
+.main{
+    /* border: 1px solid black; */
+    align-items: center;
+    
+}
+.main .sub{
+    margin: auto;
+}
+.col{
+    /* border: 1px solid black; */
+}
+
+.txt{
+
+    /* border: 1px solid black; */
+    text-align: center;
+    /* background-color: aqua; */
+    /* width: 40%; */
+}
+.form{
+    text-align: center;
+    align-items: center;
+
+}
+.main .sub .txt .imgWrapper{
+    width: auto;
+    max-width: 350px;
+    
+}
+.conicons {
+    font-size: 40px;
+    position: relative;
+    margin-left: 28%;
+    display: flex;
+    align-items: center;
+}
+.conicons a{
+width: 60px;
+    background-color: white;
+    color: blue;
+    font-size: 35px;
+    align-items: center;
+    position: relative;
+    
+}
