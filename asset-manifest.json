@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/Ravi/static/css/main.d7b06745.css",
-    "main.js": "/Ravi/static/js/main.c06224fc.js",
+    "main.css": "/Ravi/static/css/main.9a1d3ed5.css",
+    "main.js": "/Ravi/static/js/main.97f25620.js",
     "static/js/453.1407b060.chunk.js": "/Ravi/static/js/453.1407b060.chunk.js",
     "static/media/ravi3.png": "/Ravi/static/media/ravi3.5d4855eb2dd073c3a577.png",
+    "static/media/contact.png": "/Ravi/static/media/contact.6e2a7c003fdbf6acd374.png",
+    "static/media/proj.png": "/Ravi/static/media/proj.473ac039767e3da9374c.png",
     "index.html": "/Ravi/index.html",
-    "main.d7b06745.css.map": "/Ravi/static/css/main.d7b06745.css.map",
-    "main.c06224fc.js.map": "/Ravi/static/js/main.c06224fc.js.map",
+    "main.9a1d3ed5.css.map": "/Ravi/static/css/main.9a1d3ed5.css.map",
+    "main.97f25620.js.map": "/Ravi/static/js/main.97f25620.js.map",
     "453.1407b060.chunk.js.map": "/Ravi/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7b06745.css",
-    "static/js/main.c06224fc.js"
+    "static/css/main.9a1d3ed5.css",
+    "static/js/main.97f25620.js"
   ]
 }
