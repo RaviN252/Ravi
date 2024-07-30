@@ -2,7 +2,7 @@ import React from "react";
 import "./Nav.css";
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
-import fav from "./Assets/favicon.png";
+import fav from "../Assets/favicon.png";
 
 function Nav() {
   const [menuopen, setMenuopen] = useState(false);

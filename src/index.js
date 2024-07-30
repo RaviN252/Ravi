@@ -12,15 +12,13 @@ import Resume from "./Resume";
 import Home from "./Home";
 import Proj from "./Proj";
 
-import Nav from "./Nav";
+import Nav from "./Component/Nav";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <>
     <BrowserRouter>
       {/* <Size /> */}
-
-      <Nav />
 
       <Routes>
         <Route path="/" element={<Home />}></Route>
